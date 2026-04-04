@@ -1,0 +1,8 @@
+<api type="release" assembly-name="VerticeMobile" mvid="f127640f44e347f098b319cd1f4564a5">
+  <module assembly-name="VerticeMobile" mvid="f127640f44e347f098b319cd1f4564a5" mvid-bytes="D2Qn8eNE8EeYsxnNH0VkpQ==">
+    <types-scratch>
+      <entry key="crc649a224021ba740b08/MainActivity" java-name="crc649a224021ba740b08/MainActivity" managed-type-name="VerticeMobile.MainActivity" token="33554444" />
+      <entry key="crc649a224021ba740b08/MainApplication" java-name="crc649a224021ba740b08/MainApplication" managed-type-name="VerticeMobile.MainApplication" token="33554445" />
+    </types-scratch>
+  </module>
+</api>

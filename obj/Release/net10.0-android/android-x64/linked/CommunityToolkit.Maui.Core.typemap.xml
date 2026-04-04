@@ -1,0 +1,7 @@
+<api type="release" assembly-name="CommunityToolkit.Maui.Core" mvid="4bd7c9a174974bdca6c72130dfb2e51c">
+  <module assembly-name="CommunityToolkit.Maui.Core" mvid="4bd7c9a174974bdca6c72130dfb2e51c" mvid-bytes="ocnXS5d03EumxyEw37LlHA==">
+    <types-scratch>
+      <entry key="crc6436e425876cb621d9/FragmentLifecycleManager" java-name="crc6436e425876cb621d9/FragmentLifecycleManager" managed-type-name="CommunityToolkit.Maui.Core.Services.FragmentLifecycleManager" token="33554439" />
+    </types-scratch>
+  </module>
+</api>

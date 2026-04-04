@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VerticeMobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+381e81ebab6c86bb186c70398c3edc71273e9a02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2fc5c433348e1a46d1bd0ef11c3645505df24e0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("VerticeMobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VerticeMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

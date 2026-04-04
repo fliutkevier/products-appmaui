@@ -31,7 +31,7 @@ jobs:
 
     - name: Compilar y Generar .ipa (Sin firma)
       # Ya no hace falta el parámetro por consola, el archivo de arriba hace el trabajo pesado
-      run: dotnet publish VerticeMobile/VerticeMobile.csproj -f net10.0-ios -c Release -p:RuntimeIdentifier=ios-arm64 -p:EnableCodeSigning=false -p:BuildIpa=true
+      run: dotnet publish VerticeMobile.csproj -f net10.0-ios -c Release -p:RuntimeIdentifier=ios-arm64 -p:EnableCodeSigning=false -p:BuildIpa=true
 
     - name: Subir el archivo descargable
       uses: actions/upload-artifact@v4

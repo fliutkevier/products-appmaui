@@ -25,9 +25,13 @@ jobs:
     - name: Instalar motor de MAUI
       run: dotnet workload install maui
 
+    - name: Forzar Bypass de Xcode (El parche real)
+      # Crea un archivo de propiedades globales que MSBuild está obligado a leer y obedecer
+      run: echo "<Project><PropertyGroup><VerifyXcodeVersion>false</VerifyXcodeVersion></PropertyGroup></Project>" > Directory.Build.props
+
     - name: Compilar y Generar .ipa (Sin firma)
-      # IMPORTANTE: Se agregó VerifyXcodeVersion=false para evadir el bug de Microsoft con Xcode 26.2
-      run: dotnet publish VerticeMobile.csproj -f net10.0-ios -c Release -p:RuntimeIdentifier=ios-arm64 -p:EnableCodeSigning=false -p:BuildIpa=true -p:VerifyXcodeVersion=false
+      # Ya no hace falta el parámetro por consola, el archivo de arriba hace el trabajo pesado
+      run: dotnet publish VerticeMobile/VerticeMobile.csproj -f net10.0-ios -c Release -p:RuntimeIdentifier=ios-arm64 -p:EnableCodeSigning=false -p:BuildIpa=true
 
     - name: Subir el archivo descargable
       uses: actions/upload-artifact@v4
